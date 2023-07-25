@@ -10,6 +10,8 @@ import { FaNetworkWired } from 'react-icons/fa';
 import { BsFileCodeFill } from 'react-icons/bs';
 import { BiSolidCctv } from 'react-icons/bi';
 
+import CTA from './CTA';
+
 const Profile = () => {
   return (
     <section id="profile">
@@ -76,6 +78,7 @@ const Profile = () => {
           Scroll Down
         </a>
       </div>
+      <CTA />
     </section>
   );
 };

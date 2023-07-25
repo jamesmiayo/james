@@ -87,9 +87,20 @@ a:hover {
   color: var(--color-white);
 }
 
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-oasis);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-oasis);
+  transition: var(--transition);
+}
+
 .btn-primary {
-  background: var(--color-orange);
-  color: var(--color-black);
+  background: var(--color-orange-variant);
+  color: var(--color-black-variant);
 }
 
 img {
@@ -116,7 +127,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  section > h2 {
+  section > h5 {
     margin-bottom: 2rem;
   }
 }
