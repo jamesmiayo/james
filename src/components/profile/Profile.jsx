@@ -40,7 +40,7 @@ const Profile = () => {
         </div>
         <div className="profile__info">
           <h5>Hi, I'm</h5>
-          <h1>James</h1>
+          <h1>James Miayo</h1>
           <h5 className="text-light itprof">IT Profesional</h5>
           {/* <p>
             Tech savvy and dedicated IT Personnel with over 7 years of
@@ -71,6 +71,10 @@ const Profile = () => {
             <img src={profile1} alt="image1" />
           </div>
         </div>
+
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </section>
   );

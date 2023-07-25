@@ -63,7 +63,7 @@ profile {
   border-radius: 50%;
   position: absolute;
   background: var(--color-black-variant);
-  color: var(--color-orange);
+  color: var(--color-oasis);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,4 +99,34 @@ profile {
 
   left: calc(50% - 10rem);
   top: 13rem;
+}
+
+/* ==================== Scroll down ===================*/
+
+.scroll__down {
+  position: absolute;
+  left: -2.3rem;
+  bottom: 30%;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ==================MEDIA QUERIES (medium devices) ===========================*/
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ==================MEDIA QUERIES (small devices) ===========================*/
+
+@media screen and (max-width: 600px) {
+  .scroll__down {
+    display: none;
+  }
+  .profile__socials::after {
+    display: none;
+  }
+  .profile__socials-icon {
+    display: none;
+  }
 }
