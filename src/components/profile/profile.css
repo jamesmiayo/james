@@ -136,7 +136,10 @@
 
   .profile__socials {
     flex-direction: row;
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
+    position: none;
     bottom: 10%;
     left: 15%;
     padding-left: 2rem;
@@ -161,7 +164,7 @@
     left: calc(50% - 6rem);
   }
   .profile__outer-circle span {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.9rem;
+    height: 2.9rem;
   }
 }

@@ -28,6 +28,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: red;
 }
 
 ::-webkit-scrollbar {
@@ -62,7 +63,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 
 section > h2 {
@@ -105,6 +106,10 @@ a:hover {
 .btn-primary {
   background: var(--color-orange-variant);
   color: var(--color-black-variant);
+}
+
+.btn-secondary {
+  color: var(--color-orange-variant);
 }
 
 img {

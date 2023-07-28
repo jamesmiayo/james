@@ -19,32 +19,7 @@ const Profile = () => {
       <h1>James Miayo</h1>
       <h5 className="text-light itprof">IT Profesional</h5>
 
-      <div className="position-abosolute container profile__container">
-        <div className="profile__socials">
-          <a
-            href="https://github.com/jamesmiayo"
-            target="##"
-            className="profile__socials-icon"
-          >
-            <BsGithub className="social__icon" size={30} />
-          </a>
-          <a
-            href="https://facebook.com/james.miayo"
-            target="##"
-            className="profile__socials-icon"
-          >
-            <BsFacebook className="social__icon" size={30} />
-          </a>
-
-          <a
-            href="https://www.instagram.com/jamesmiayo/"
-            target="##"
-            className="profile__socials-icon"
-          >
-            <BsInstagram className="social__icon" size={30} />
-          </a>
-        </div>
-
+      <div className="container profile__container">
         <div className="profile__image_area">
           <div className="profile__outer-circle">
             <span>
@@ -64,12 +39,38 @@ const Profile = () => {
           <div className="profile__inner-circle">
             <img src={profile1} alt="image1" />
           </div>
+
+          <div className="profile__socials">
+            <a
+              href="https://github.com/jamesmiayo"
+              target="##"
+              className="profile__socials-icon"
+            >
+              <BsGithub className="social__icon" size={30} />
+            </a>
+            <a
+              href="https://facebook.com/james.miayo"
+              target="##"
+              className="profile__socials-icon"
+            >
+              <BsFacebook className="social__icon" size={30} />
+            </a>
+
+            <a
+              href="https://www.instagram.com/jamesmiayo/"
+              target="##"
+              className="profile__socials-icon"
+            >
+              <BsInstagram className="social__icon" size={30} />
+            </a>
+          </div>
         </div>
 
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
       </div>
+
       <CTA />
     </section>
   );
