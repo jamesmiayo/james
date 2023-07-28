@@ -5,7 +5,7 @@ import About from './components/about/About.jsx';
 const App = () => {
   return (
     <>
-      <div>VERSION CONTROL: 3</div>
+      <div>VERSION CONTROL: 4</div>
       <Profile />
       <About />
     </>
