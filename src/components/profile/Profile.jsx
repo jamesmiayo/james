@@ -15,6 +15,10 @@ import CTA from './CTA';
 const Profile = () => {
   return (
     <section id="profile">
+      <h5>Hi, I'm</h5>
+      <h1>James Miayo</h1>
+      <h5 className="text-light itprof">IT Profesional</h5>
+
       <div className="container profile__container">
         <div className="profile__socials">
           <a
@@ -22,14 +26,14 @@ const Profile = () => {
             target="##"
             className="profile__socials-icon"
           >
-            <BsGithub size={40} />
+            <BsGithub className="social__icon" size={30} />
           </a>
           <a
             href="https://facebook.com/james.miayo"
             target="##"
             className="profile__socials-icon"
           >
-            <BsFacebook size={30} />
+            <BsFacebook className="social__icon" size={30} />
           </a>
 
           <a
@@ -37,20 +41,8 @@ const Profile = () => {
             target="##"
             className="profile__socials-icon"
           >
-            <BsInstagram size={20} />
+            <BsInstagram className="social__icon" size={30} />
           </a>
-        </div>
-        <div className="profile__info">
-          <h5>Hi, I'm</h5>
-          <h1>James Miayo</h1>
-          <h5 className="text-light itprof">IT Profesional</h5>
-          {/* <p>
-            Tech savvy and dedicated IT Personnel with over 7 years of
-            experience in a Networking Company. Eager to offer computer skills
-            in both hardware and software. Currently upskilling and taking the
-            path for professional web development to become a full-stack
-            developer.
-          </p> */}
         </div>
 
         <div className="profile__image_area">

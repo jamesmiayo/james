@@ -1,7 +1,7 @@
-section {
+#profile {
   height: 100vh;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .profile__container {
@@ -9,6 +9,10 @@ section {
   height: 56%;
   position: relative;
 }
+
+/* .profile__info {
+  text-align: center;
+} */
 
 /* ==============Socials=============== */
 .profile__socials {
@@ -49,7 +53,7 @@ section {
   border: 1px solid var(--color-orange);
   border-radius: 50%;
   position: absolute;
-  animation: move 30s linear infinite;
+  animation: move 20s linear infinite;
   left: calc(50% - 9rem);
 }
 
@@ -100,7 +104,7 @@ section {
   overflow: hidden;
 
   left: calc(50% - 6rem);
-  top: 13rem;
+  top: 3rem;
 }
 
 /* ==================== Scroll down ===================*/
@@ -117,7 +121,7 @@ section {
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
 
 @media screen and (max-width: 1024px) {
-  section {
+  #profile {
     height: 100vh;
   }
 }
@@ -125,16 +129,25 @@ section {
 /* ==================MEDIA QUERIES (small devices) ===========================*/
 
 @media screen and (max-width: 600px) {
-  section {
+  #profile {
     height: 100vh;
   }
   .scroll__down {
     display: none;
   }
-  .profile__socials::after {
-    display: none;
+
+  .profile__socials {
+    flex-direction: row;
+    gap: 2rem;
+    bottom: 10%;
+    left: 10%;
+    padding-left: 2rem;
   }
-  .profile__socials-icon {
-    display: none;
+
+  .profile__socials::before {
+    content: '';
+    width: 1px;
+    height: 5rem;
+    background-color: var(--color-orange);
   }
 }
