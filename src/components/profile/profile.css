@@ -42,7 +42,9 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  padding-top: 10rem;
+  position: absolute;
+  bottom: 0%;
+  left: calc(50% - 9rem);
 }
 
 /* ================================================= */

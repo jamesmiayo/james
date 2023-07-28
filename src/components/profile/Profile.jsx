@@ -69,9 +69,9 @@ const Profile = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
-      </div>
 
-      <CTA />
+        <CTA />
+      </div>
     </section>
   );
 };
