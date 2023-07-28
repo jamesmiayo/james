@@ -19,7 +19,7 @@ const Profile = () => {
       <h1>James Miayo</h1>
       <h5 className="text-light itprof">IT Profesional</h5>
 
-      <div className="container profile__container">
+      <div className="position-abosolute container profile__container">
         <div className="profile__socials">
           <a
             href="https://github.com/jamesmiayo"

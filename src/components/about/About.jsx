@@ -10,10 +10,11 @@ const About = () => {
       <h5>Who am I</h5>
       <h1>About me</h1>
       <div className="container about__container">
-        <div className="about__image">
-          <img src={profile2} alt="about_profile" />
+        <div className="about__about-image">
+          <div className="about__image">
+            <img src={profile2} alt="about_profile-img" />
+          </div>
         </div>
-
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -28,7 +29,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Tech savvy and dedicated IT Personnel with over 7 years of
+            Tech savvy and dedicated IT Personnel with over 9 years of
             experience in a Networking Company. Eager to offer computer skills
             in both hardware and software. Currently upskilling and taking the
             path for professional web development to become a full-stack
