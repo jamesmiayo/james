@@ -4,11 +4,11 @@ import About from './components/about/About.jsx';
 
 const App = () => {
   return (
-    <>
+    <div>
       <div>VERSION CONTROL: 4</div>
       <Profile />
       <About />
-    </>
+    </div>
   );
 };
 

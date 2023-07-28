@@ -48,16 +48,16 @@ const Profile = () => {
         <div className="profile__image_area">
           <div className="profile__outer-circle">
             <span>
-              <FaDatabase size={30} />
+              <FaDatabase size={15} />
             </span>
             <span>
-              <FaNetworkWired size={30} />
+              <FaNetworkWired size={15} />
             </span>
             <span>
-              <BsFileCodeFill size={30} />
+              <BsFileCodeFill size={15} />
             </span>
             <span>
-              <BiSolidCctv size={30} />
+              <BiSolidCctv size={15} />
             </span>
           </div>
 

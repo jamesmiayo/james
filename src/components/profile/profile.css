@@ -10,9 +10,9 @@
   position: relative;
 }
 
-/* .profile__info {
+.profile__info {
   text-align: center;
-} */
+}
 
 /* ==============Socials=============== */
 .profile__socials {
@@ -46,7 +46,16 @@
 }
 
 /* ================================================= */
+.profile__inner-circle {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
 
+  left: calc(50% - 6rem);
+  top: 3rem;
+}
 .profile__outer-circle {
   width: 18rem;
   height: 18rem;
@@ -96,17 +105,6 @@
   left: calc(50% - 2rem);
 }
 
-.profile__inner-circle {
-  position: absolute;
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  overflow: hidden;
-
-  left: calc(50% - 6rem);
-  top: 3rem;
-}
-
 /* ==================== Scroll down ===================*/
 
 .scroll__down {
@@ -140,7 +138,7 @@
     flex-direction: row;
     gap: 2rem;
     bottom: 10%;
-    left: 10%;
+    left: 15%;
     padding-left: 2rem;
   }
 
@@ -149,5 +147,17 @@
     width: 1px;
     height: 5rem;
     background-color: var(--color-orange);
+  }
+
+  .profile__inner-circle {
+    width: 8rem;
+    height: 8rem;
+    left: calc(50% - 4rem);
+    top: 2rem;
+  }
+  .profile__outer-circle {
+    width: 12rem;
+    height: 12rem;
+    left: calc(50% - 6rem);
   }
 }
