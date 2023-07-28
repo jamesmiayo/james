@@ -1,14 +1,16 @@
 profile {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile__container {
   text-align: center;
-  height: 75%;
+  height: 56%;
   position: relative;
 }
-
-.profile__container
 
 /* ==============Socials=============== */
 .profile__socials {
@@ -36,20 +38,20 @@ profile {
 
 .cta {
   display: flex;
-  gap: 1.2rem;
+  gap: 1rem;
   justify-content: center;
 }
 
 /* ================================================= */
 
 .profile__outer-circle {
-  width: 26rem;
-  height: 26rem;
+  width: 20rem;
+  height: 20rem;
   border: 1px solid var(--color-orange);
   border-radius: 50%;
   position: absolute;
   animation: move 30s linear infinite;
-  left: calc(50% - 13rem);
+  left: calc(50% - 10rem);
 }
 
 @keyframes move {
@@ -93,12 +95,12 @@ profile {
 
 .profile__inner-circle {
   position: absolute;
-  width: 20rem;
-  height: 20rem;
+  width: 14rem;
+  height: 14rem;
   border-radius: 50%;
   overflow: hidden;
 
-  left: calc(50% - 10rem);
+  left: calc(50% - 7rem);
   top: 13rem;
 }
 
@@ -116,11 +118,17 @@ profile {
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
 
 @media screen and (max-width: 1024px) {
+  .profile__container {
+    height: 75%vh;
+  }
 }
 
 /* ==================MEDIA QUERIES (small devices) ===========================*/
 
 @media screen and (max-width: 600px) {
+  .profile__container {
+    height: 65%;
+  }
   .scroll__down {
     display: none;
   }
