@@ -4,7 +4,7 @@ import Profile from './components/profile/Profile.jsx';
 const App = () => {
   return (
     <>
-      VERSION COTNTROL: 1
+      <div>VERSION COTNTROL: 2</div>
       <Profile />
     </>
   );
