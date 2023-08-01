@@ -126,7 +126,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
 }
 /* ==================MEDIA QUERIES (small devices) ===========================*/
@@ -137,6 +137,6 @@ img {
   }
 
   section > h5 {
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
   }
 }
