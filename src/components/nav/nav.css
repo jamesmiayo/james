@@ -8,8 +8,8 @@ nav {
   /* left: 50%; */
   /* transform: translateX(-50%); */
   rotate: 90deg;
-  bottom: 50%;
-  left: -6rem;
+  bottom: 20%;
+  left: -7rem;
   display: flex;
   gap: 0.8 rem;
   border-radius: 3rem 3rem 1rem 1rem;
