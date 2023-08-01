@@ -66,9 +66,9 @@ const Profile = () => {
           </div>
         </div>
 
-        <a href="#contact" className="scroll__down">
+        {/* <a href="#contact" className="scroll__down">
           Scroll Down
-        </a>
+        </a> */}
 
         <CTA />
       </div>

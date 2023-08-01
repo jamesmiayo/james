@@ -109,14 +109,14 @@
 
 /* ==================== Scroll down ===================*/
 
-.scroll__down {
+/* .scroll__down {
   position: absolute;
   left: -2.3rem;
   bottom: 30%;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-}
+} */
 
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
 
