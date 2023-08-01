@@ -6,7 +6,7 @@ import Nav from './components/nav/Nav.jsx';
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 6</div>
+      <div>VERSION CONTROL: 7</div>
       <Nav />
       <Profile />
       <About />
