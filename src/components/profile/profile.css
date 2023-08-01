@@ -151,7 +151,10 @@
     content: '';
     width: 1px;
     height: 5rem;
-    background-color: var(--color-orange);
+    background-color: var(--color-oasis);
+  }
+  .profile__socials::after {
+    background-color: var(--color-oasis);
   }
 
   .profile__inner-circle {

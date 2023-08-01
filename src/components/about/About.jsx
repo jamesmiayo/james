@@ -3,6 +3,7 @@ import profile2 from '../../assets/Images/me1.png';
 import './about.css';
 import { MdWorkHistory } from 'react-icons/md';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { FaCertificate } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -26,6 +27,11 @@ const About = () => {
               <AiOutlineFundProjectionScreen className="about__icon" />
               <h5>Projects</h5>
               <small>10+ </small>
+            </article>
+            <article className="about__card">
+              <FaCertificate className="about__icon" />
+              <h5>Certificates</h5>
+              <small>2 </small>
             </article>
           </div>
           <p>
