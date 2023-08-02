@@ -13,10 +13,13 @@
 :root {
   --color-black: #030202;
   --color-black-variant: #151515;
+  --color-black-v2: #201e1f;
   --color-orange: #ff6f00;
   --color-orange-variant: #f07900;
+  --color-orange-v2: #ffcda2;
   --color-oasis: #fce7cc;
   --color-white: #fff;
+  --color-green: #5b7b7a;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -49,25 +52,34 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  font-weight: 500;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 500;
+}
+h4 {
+  font-weight: 500;
+}
 h5 {
   font-weight: 500;
 }
+
 h1 {
   font-size: 2.5rem;
   text-align: center;
-  color: var(--color-orange);
+  color: var(--color-orange-v2);
 }
 
 h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-oasis);
 }
 section {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 section > h2 {
@@ -79,16 +91,12 @@ section > h5 {
   color: var(--color-light);
 }
 
-/* section > h2 {
-  color: var(--color-orange);
-} */
-
 .text-light {
   color: var(--color-light);
 }
 
 a {
-  color: var(--color-orange);
+  color: var(--color-orange-v2);
   transition: var(--transition);
 }
 

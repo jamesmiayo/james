@@ -21,7 +21,7 @@ nav a {
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  color: var(--color-white);
+  color: var(--color-orange);
   font-size: 1.1rem;
   rotate: 270deg;
 }

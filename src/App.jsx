@@ -7,7 +7,7 @@ import Experience from './components/experience/Experience.jsx';
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 7</div>
+      <div>VERSION CONTROL: 8</div>
       <Nav />
       <Profile />
       <About />
