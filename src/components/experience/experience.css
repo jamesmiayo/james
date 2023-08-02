@@ -1,9 +1,46 @@
-.experience__container {
-  display: flex;
-  flex-direction: column;
+.experience__skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+  place-items: center;
 }
 
 .skill__icon {
   height: 100px;
   width: 100px;
+}
+
+.experience__skills small {
+  text-align: center;
+}
+
+.experience__skill {
+  background: var(--color-black-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.experience__skill:hover {
+  background: transparent;
+  border-color: var(--color-black-variant);
+  cursor: default;
+}
+
+/* ==================MEDIA QUERIES (medium devices) ===========================*/
+
+@media screen and (max-width: 1024px) {
+  .experience__skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* ==================MEDIA QUERIES (small devices) ===========================*/
+
+@media screen and (max-width: 600px) {
+  .experience__skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -28,6 +28,22 @@ const data = {
       description:
         'JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.',
     },
+    {
+      name: 'JAVASCRIPT',
+      slug: 'js',
+      image: img3,
+      level: 'Intermediate',
+      description:
+        'JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.',
+    },
+    {
+      name: 'JAVASCRIPT',
+      slug: 'js',
+      image: img3,
+      level: 'Intermediate',
+      description:
+        'JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.',
+    },
   ],
 };
 

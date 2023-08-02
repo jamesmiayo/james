@@ -11,10 +11,16 @@ const Experience = () => {
         <div className="experience__skills">
           {data.skills.map((skill) => (
             <div className="experience__skill" key={skill.slug}>
-              <img src={skill.image} alt={skill.name} className="skill__icon" />
-              <h2>{skill.name}</h2>
-              <h4>{skill.level}</h4>
-              {/* <p>{skill.description}</p> */}
+              <article>
+                <img
+                  src={skill.image}
+                  alt={skill.name}
+                  className="skill__icon"
+                />
+                <h5>{skill.name}</h5>
+                <small className="text-light">{skill.level}</small>
+                {/* <p>{skill.description}</p> */}
+              </article>
             </div>
           ))}
         </div>
