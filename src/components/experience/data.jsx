@@ -1,11 +1,9 @@
-import { AiFillHtml5 } from 'react-icons/ai';
-
 const data = {
   skills: [
     {
       name: 'HTML',
       slug: 'html',
-      icon: { AiFillHtml5 },
+      image: '../../assets/icons/html.png',
       level: 'Intermediate',
       description:
         'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.',
@@ -13,7 +11,7 @@ const data = {
     {
       name: 'CSS',
       slug: 'css',
-      icon: 'ico1',
+      image: '/icons/css.png',
       level: 'Intermediate',
       description:
         'Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).',
@@ -21,7 +19,7 @@ const data = {
     {
       name: 'JAVASCRIPT',
       slug: 'js',
-      icon: 'ico1',
+      image: '/icons/js.png',
       level: 'Intermediate',
       description:
         'JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.',
