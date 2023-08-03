@@ -17,7 +17,7 @@ const Profile = () => {
     <section id="profile">
       <h5>Hi, I'm</h5>
       <h1>James Miayo</h1>
-      <h5 className="text-light itprof">IT Profesional</h5>
+      <h5 className="text-light itprof">IT Professional</h5>
 
       <div className="container profile__container">
         <div className="profile__image_area">

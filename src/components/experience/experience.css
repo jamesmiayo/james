@@ -1,11 +1,16 @@
 .experience__skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   gap: 0.5rem;
   place-items: center;
 }
-
+#experience > h5 {
+  padding-top: 2rem;
+}
+.experience__skill h5 {
+  padding-top: 1rem;
+}
 .skill__icon {
   height: 100px;
   width: 100px;

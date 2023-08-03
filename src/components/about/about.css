@@ -1,6 +1,10 @@
 /* #about {
   background: var(--color-black-variant);
 } */
+
+#about > h5 {
+  padding-top: 2rem;
+}
 .about__container {
   display: grid;
   grid-template-columns: 45% 50%;
