@@ -31,7 +31,7 @@ const About = () => {
             <article className="about__card">
               <FaCertificate className="about__icon" />
               <h5>Certificates</h5>
-              <small>2 </small>
+              <small>10+ </small>
             </article>
           </div>
           <p>
