@@ -39,13 +39,13 @@ const Experience = () => {
         <div className="swiper__container">
           <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
             <SwiperSlide>
-              <img src={imgcert} alt="" />
+              <img src={imgcert} alt="imgcert" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={imgcert2} alt="" />
+              <img src={imgcert2} alt="imgcert2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={imgcert3} alt="" />
+              <img src={imgcert3} alt="imgcert3" />
             </SwiperSlide>
           </Swiper>
         </div>
