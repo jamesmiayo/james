@@ -1,6 +1,6 @@
 .experience__skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 0.5rem;
   place-items: center;
@@ -12,8 +12,8 @@
   padding-top: 1rem;
 }
 .skill__icon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .experience__skills small {
@@ -21,6 +21,10 @@
 }
 
 .experience__skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background: var(--color-black-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
@@ -39,13 +43,13 @@
 
 @media screen and (max-width: 1024px) {
   .experience__skills {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 /* ==================MEDIA QUERIES (small devices) ===========================*/
 
 @media screen and (max-width: 600px) {
   .experience__skills {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
