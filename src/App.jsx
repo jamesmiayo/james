@@ -8,7 +8,7 @@ import Footer from './components/footer/Footer.jsx';
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 10</div>
+      <div>VERSION CONTROL: 11</div>
       <Nav />
       <Profile />
       <About />
