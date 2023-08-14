@@ -65,7 +65,7 @@ const data = {
         'Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.',
     },
     {
-      name: 'Visual Basic 6.0',
+      name: 'VB 6.0',
       slug: 'vb6',
       image: img7,
       level: 'Intermediate',

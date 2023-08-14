@@ -33,23 +33,33 @@ const Experience = () => {
           </div>
         </div>
       </section>
-
-      <h1>Certificate</h1>
-      <div className="container certificate__container">
-        <div className="swiper__container">
-          <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-            <SwiperSlide>
-              <img src={imgcert} alt="imgcert" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgcert2} alt="imgcert2" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={imgcert3} alt="imgcert3" />
-            </SwiperSlide>
-          </Swiper>
+      <section id="certificate">
+        <h1>Certificate</h1>
+        <div className="container certificate__container">
+          <div className="swiper__container">
+            <Swiper
+              pagination={true}
+              modules={[Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={imgcert} alt="imgcert" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgcert2} alt="imgcert2" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgcert3} alt="imgcert3" />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section id="job">
+        <h1>Work Experience</h1>
+        <div className="container job__container"></div>
+      </section>
     </>
   );
 };
