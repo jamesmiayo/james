@@ -11,9 +11,10 @@
 }
 
 :root {
-  /* --color-black: #030202; */
-  --color-black: #2d2d2d;
-  --color-black-variant: #151515;
+  --color-black: #030202;
+  /* --color-black: #2d2d2d; */
+  /* --color-black-variant: #151515; */
+  --color-black-variant: #292828;
   --color-black-v2: #201e1f;
   --color-orange: #ff6f00;
   --color-orange-variant: #f07900;

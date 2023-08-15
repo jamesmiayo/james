@@ -1,8 +1,8 @@
 import React from 'react';
 import './experience.css';
 import data from './data';
-import imgcert from '../../assets/cert/cert.jpg';
-import imgcert2 from '../../assets/cert/cert2.jpg';
+import imgcert from '../../assets/cert/cert2.jpg';
+import imgcert2 from '../../assets/cert/cert.jpg';
 import imgcert3 from '../../assets/cert/cert3.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
