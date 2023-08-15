@@ -154,3 +154,25 @@ img {
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-height: 600px) {
+  .profile__socials {
+    visibility: hidden;
+  }
+  .cta {
+    visibility: hidden;
+  }
+  #profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__container {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-height: 200px) {
+  #profile h5 {
+    visibility: hidden;
+  }
+}

@@ -58,7 +58,30 @@ const Experience = () => {
 
       <section id="job">
         <h1>Work Experience</h1>
-        <div className="container job__container"></div>
+
+        <div className="container job__container">
+          <div className="jobinfo__container">
+            <h2>2015-2019</h2>
+            <h5>Database and Network Admin Staff</h5>
+            <small className="text-light">
+              IFERN CORPORATION l Norton & Harrison Compound Sheridan Street,
+              Corner Pines, Mandaluyong, Metro Manila
+            </small>
+          </div>
+          <div className="jobdetail__container">
+            <small>
+              Working with database software to find ways to store, organize and
+              manage SQL data. Managing database access, security/integrity and
+              backup procedure. Keeping database up-to-date, optimizing,
+              troubleshooting, writing disaster recovery, testing and modifying
+              database to ensure that they operate reliably. Installing and
+              configuring software, hardware and computer networks and system,
+              identifying and solving any problem that arise with computer
+              network and systems. Maintaning existing software and hardware and
+              upgrading any that have become
+            </small>
+          </div>
+        </div>
       </section>
     </>
   );

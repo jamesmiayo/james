@@ -4,6 +4,8 @@ import './about.css';
 import { MdWorkHistory } from 'react-icons/md';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { FaCertificate } from 'react-icons/fa';
+import { GiDiploma } from 'react-icons/gi';
+import { BsHouseFill } from 'react-icons/bs';
 
 const About = () => {
   return (
@@ -45,6 +47,18 @@ const About = () => {
           <a href="#contact" className="btn btn-primary">
             Message me
           </a>
+
+          <article className="education__card">
+            <GiDiploma className="education__icon" size={30} />
+            <h5>Education :</h5>
+            <small className="text-light">
+              B.S. Information Technology 2008-2012
+            </small>
+
+            <BsHouseFill className="education__icon" size={30} />
+            <h5>Address :</h5>
+            <small className="text-light">Santolan Pasig City</small>
+          </article>
         </div>
       </div>
     </section>

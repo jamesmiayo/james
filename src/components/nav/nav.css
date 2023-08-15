@@ -34,3 +34,14 @@ nav a.active {
   background: var(--color-black);
   color: var(--color-white);
 }
+@media screen and (max-height: 380px) {
+  nav {
+    rotate: 0deg;
+    left: 7rem;
+    bottom: 0;
+  }
+
+  nav a {
+    rotate: 0deg;
+  }
+}
