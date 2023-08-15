@@ -131,4 +131,13 @@
   .experience__skills {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .job__container {
+    display: grid;
+    place-items: center;
+  }
+
+  .jobinfo__container {
+    width: auto;
+  }
 }
