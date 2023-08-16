@@ -135,6 +135,45 @@ const data = {
       description: '',
     },
   ],
+
+  experiences: [
+    {
+      id: '1',
+      year: '2019 - 2022',
+      position: 'Database and Network Admin Staff',
+      company:
+        'IFERN CORPORATION | Norton & Harrison Compound Sheridan Street, Corner Pines, Mandaluyong, Metro Manila',
+      jobdetail:
+        'Working with database software to find ways to store, organize and manage SQL data. Managing database access, security/integrity and backup procedure. Keeping database up-to-date, optimizing, troubleshooting, writing disaster recovery, testing and modifying database to ensure that they operate reliably. Installing and configuring software, hardware and computer networks and system, identifying and solving any problem that arise with computer network and systems. Maintaning existing software and hardware and upgrading any that have become',
+    },
+
+    {
+      id: '2',
+      year: '2015 - 2019',
+      position: 'System and Network Admin Staff',
+      company: 'FERN INC. | FCC Escriva Drive Ortigas Center Pasig City',
+      jobdetail:
+        'Installing and configuring software, hardware, and computer networks and system. Identifying and solving problems that arise with computer network and systems. Consulting with management to specify system requirements and design solutions. Monitoring computer networks and systems to identify how performance can be improved. Monitoring the LAN for threats and errors. Managing and maintaining file servers. Providing network administration and support. Network and CCTV installation. VOIP Management. Active directory management. ERP system support.',
+    },
+
+    {
+      id: '3',
+      year: '2012 - 2015',
+      position: 'Inventory Control Assistant',
+      company: 'FERN INC. | FCC Escriva Drive Ortigas Center Pasig City',
+      jobdetail:
+        'Developing, testing and implementing I-fern Warehouse Management System. Testing and implementing of ERIC ERP System. Monitoring and maintaining current inventory levels. Process purchasing order as required. Tracking orders and investigating problems. Receiving, transfer, unpacking and restocking items as necessary. Performing routine clerical duty which includes data entry. Recording purchase, maintaining data, perform physical count of inventory, reconciling actual stock count to computer generated reports and performing miscellaneous job-related duties as assigned.',
+    },
+
+    {
+      id: '4',
+      year: '2012',
+      position: 'On the Job Training (Accounting Department)',
+      company: 'FERN INC. | FCC Escriva Drive Ortigas Center Pasig City',
+      jobdetail:
+        'Created Staled Check System. Performing work as directed by supervisor',
+    },
+  ],
 };
 
 export default data;

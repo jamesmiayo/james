@@ -59,7 +59,7 @@ const Experience = () => {
       <section id="job">
         <h1>Work Experience</h1>
 
-        <div className="container job__container">
+        {/* <div className="container job__container">
           <div className="jobinfo__container">
             <h2>2015-2019</h2>
             <h5>Database and Network Admin Staff</h5>
@@ -80,8 +80,20 @@ const Experience = () => {
               network and systems. Maintaning existing software and hardware and
               upgrading any that have become
             </small>
+          </div> */}
+
+        {data.experiences.map((experience) => (
+          <div className="container job__container" key={experience.position}>
+            <div className="jobinfo__container">
+              <h2>{experience.year}</h2>
+              <h5>{experience.position}</h5>
+              <small className="text-light">{experience.company}</small>
+            </div>
+            <div className="jobdetail__container">
+              <small>{experience.jobdetail}</small>
+            </div>
           </div>
-        </div>
+        ))}
       </section>
     </>
   );

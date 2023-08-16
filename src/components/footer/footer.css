@@ -33,7 +33,7 @@ footer a {
 }
 
 .footer__socials a {
-  background-color: var(--color-black-variant);
+  background-color: var(--color-black-variantv2);
   color: var(--color-orange);
   padding: 0.8rem;
   border-radius: 0.7rem;

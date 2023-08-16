@@ -6,6 +6,8 @@ import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { FaCertificate } from 'react-icons/fa';
 import { GiDiploma } from 'react-icons/gi';
 import { BsHouseFill } from 'react-icons/bs';
+import { FaMailBulk } from 'react-icons/fa';
+import { FiPhoneCall } from 'react-icons/fi';
 
 const About = () => {
   return (
@@ -54,10 +56,19 @@ const About = () => {
             <small className="text-light">
               B.S. Information Technology 2008-2012
             </small>
+            <small className="text-light">STI College - Ortigas Cainta</small>
 
             <BsHouseFill className="education__icon" size={30} />
             <h5>Address :</h5>
             <small className="text-light">Santolan Pasig City</small>
+
+            <FaMailBulk className="education__icon" size={30} />
+            <h5>Email :</h5>
+            <small className="text-light">it_jamesmiayo25@yahoo.com</small>
+
+            <FiPhoneCall className="education__icon" size={30} />
+            <h5>Phone :</h5>
+            <small className="text-light">09913787181</small>
           </article>
         </div>
       </div>

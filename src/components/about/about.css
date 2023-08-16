@@ -1,6 +1,6 @@
-/* #about {
-  background: var(--color-black-variant);
-} */
+#about {
+  background: var(--color-black);
+}
 
 #about > h5 {
   padding-top: 2rem;

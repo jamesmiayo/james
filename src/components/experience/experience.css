@@ -96,9 +96,14 @@
 
 #job small {
   color: var(--color-light);
+  text-align: left;
 }
 
-.jobinfo__container {
+#job h5 {
+  text-align: left;
+}
+
+.jobdetail__container {
   padding: 1rem;
   border-radius: 1rem;
   width: 200rem;
@@ -107,16 +112,16 @@
   align-items: start;
 
   background: transparent;
-  border: 2px solid transparent;
-  border-color: var(--color-black-variant);
+  border: 1px solid transparent;
+  border-color: var(--color-orange);
   border-radius: 1rem;
   padding: 2rem;
   text-align: left;
   transition: var(--transition);
 }
 
-.jobdetail__container {
-  width: 300rem;
+.jobinfo__container {
+  width: 200rem;
   height: auto;
   background: var(--color-black-variant);
   position: relative;
@@ -125,27 +130,26 @@
   border-color: var(--color-black-variant);
   border-radius: 1rem;
   padding: 1rem;
+  z-index: 6;
 }
-.jobdetail__container:before {
+.jobinfo__container:before {
   content: '';
   position: absolute;
-  right: 100%;
-  top: 5rem;
+  left: 100%;
+  top: 40%;
   width: 0;
   height: 0;
+
   border-top: 1rem solid transparent;
-  border-right: 2rem solid var(--color-black-variant);
+  border-left: 3rem solid var(--color-black-variant);
   border-bottom: 1rem solid transparent;
+  z-index: 7;
 }
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
 
 @media screen and (max-width: 1024px) {
   .experience__skills {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .jobdetail__container:before {
-    top: 6rem;
   }
 }
 /* ==================MEDIA QUERIES (small devices) ===========================*/
@@ -156,20 +160,21 @@
   }
 
   .job__container {
-    display: grid;
+    display: flex;
     place-items: center;
+    flex-direction: column;
   }
 
-  .jobinfo__container {
-    width: auto;
-  }
   .jobdetail__container {
     width: auto;
   }
+  .jobinfo__container {
+    width: auto;
+  }
 
-  .jobdetail__container:before {
+  .jobinfo__container:before {
     rotate: 90deg;
-    top: -30;
+    top: 100%;
     left: 50%;
   }
 }
