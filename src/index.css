@@ -35,7 +35,7 @@
 
 html {
   scroll-behavior: smooth;
-  background: red;
+  background: var(--color-black);
 }
 
 ::-webkit-scrollbar {
@@ -93,7 +93,7 @@ section > h2 {
 }
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-orange);
 }
 
 .text-light {

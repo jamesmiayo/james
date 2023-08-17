@@ -4,6 +4,7 @@ import About from './components/about/About.jsx';
 import Nav from './components/nav/Nav.jsx';
 import Experience from './components/experience/Experience.jsx';
 import Footer from './components/footer/Footer.jsx';
+import Services from './components/services/Services.jsx';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Profile />
       <About />
       <Experience />
+      <Services />
       <Footer />
     </div>
   );
