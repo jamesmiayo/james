@@ -22,7 +22,7 @@ const Portfolio = () => {
               </span>
               View Website
             </a>
-            <a href="#contact" className="btn btn-primary">
+            <a href="#contact" className="btn btn-secondary">
               <span>
                 <BsGithub size={20} />
               </span>
@@ -43,7 +43,7 @@ const Portfolio = () => {
               </span>
               View Website
             </a>
-            <a href="#contact" className="btn btn-primary">
+            <a href="#contact" className="btn btn-secondary">
               <span>
                 <BsGithub size={20} />
               </span>

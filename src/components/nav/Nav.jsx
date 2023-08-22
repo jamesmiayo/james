@@ -3,8 +3,8 @@ import './nav.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
-import { BiMessageSquareDetail } from 'react-icons/bi';
+import { MdDesignServices } from 'react-icons/md';
+import { GiTalk } from 'react-icons/gi';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -38,14 +38,14 @@ const Nav = () => {
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
       >
-        <RiServiceLine />
+        <MdDesignServices />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}
       >
-        <BiMessageSquareDetail />
+        <GiTalk />
       </a>
     </nav>
   );
