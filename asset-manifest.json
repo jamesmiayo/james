@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/james/static/css/main.e6f4fefb.css",
-    "main.js": "/james/static/js/main.17524473.js",
+    "main.css": "/james/static/css/main.77805972.css",
+    "main.js": "/james/static/js/main.94bdb68a.js",
+    "static/media/knldeluxetreats.png": "/james/static/media/knldeluxetreats.472b6051c27c1b3bbf3c.png",
     "static/media/me1.png": "/james/static/media/me1.d6a242e695eeb5002ba9.png",
     "static/media/maeforeverkayjames.png": "/james/static/media/maeforeverkayjames.6927db599d6add5fa1bc.png",
     "static/media/me3.jpg": "/james/static/media/me3.a9fe0ccacf8122ed39b9.jpg",
@@ -19,11 +20,11 @@
     "static/media/html.png": "/james/static/media/html.be50d4568ab0cb01edb8.png",
     "static/media/figma.png": "/james/static/media/figma.738add6736dde780a845.png",
     "index.html": "/james/index.html",
-    "main.e6f4fefb.css.map": "/james/static/css/main.e6f4fefb.css.map",
-    "main.17524473.js.map": "/james/static/js/main.17524473.js.map"
+    "main.77805972.css.map": "/james/static/css/main.77805972.css.map",
+    "main.94bdb68a.js.map": "/james/static/js/main.94bdb68a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f4fefb.css",
-    "static/js/main.17524473.js"
+    "static/css/main.77805972.css",
+    "static/js/main.94bdb68a.js"
   ]
 }
