@@ -1,9 +1,23 @@
 footer {
-  background: var(--color-black-variant);
+  background: var(--color-black);
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
+}
+
+footer .footer__container {
+  background: linear-gradient(var(--color-black-variant), transparent);
+  width: 50rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 25rem);
+  /* left: 50%;
+  transform: translateX(-50%); */
+  margin-top: 4rem;
+  border-radius: 16rem 16rem 0 0;
+  overflow: hidden;
+  padding: 10rem 1.5rem 1.5rem 1.5rem;
 }
 
 footer a {

@@ -39,16 +39,20 @@ function Contact() {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
+            <div className="contact__icon">
+              <MdOutlineEmail className="contact__option-icon" />
+            </div>
             <h4>Email</h4>
-            <h5>dummy@gmail.com</h5>
-            <a href="mailto:dummy@gmail.com" target="##">
+            <h5>it_jamesmiayo25@yahoo.com</h5>
+            <a href="mailto:it_jamesmiayo25@yahoo.com" target="##">
               Send a message
             </a>
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
+            <div className="contact__icon">
+              <RiMessengerLine className="contact__option-icon" />
+            </div>
             <h4>Messenger</h4>
             <h5>james.miayo</h5>
             <a href="https://m.me/james.miayo" target="##">
@@ -57,13 +61,12 @@ function Contact() {
           </article>
 
           <article className="contact__option">
-            <SiViber className="contact__option-icon" />
+            <div className="contact__icon">
+              <SiViber className="contact__option-icon" />
+            </div>
             <h4>Viber</h4>
             <h5>09913787181</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone++1232131231"
-              target="##"
-            >
+            <a href="https://account.viber.com/en/login" target="##">
               Send a message
             </a>
           </article>

@@ -94,7 +94,7 @@
   border: 2px solid transparent;
   border-color: var(--color-black-variant);
   border-radius: 1rem;
-  background: var(--color-black-variantv2);
+  background: var(--color-black-variant);
 }
 
 #job h2 {
@@ -129,11 +129,11 @@
 .jobinfo__container {
   width: 200rem;
   height: auto;
-  background: var(--color-black-variant);
+  background: var(--color-black-variantv2);
   position: relative;
 
   border: 2px solid transparent;
-  border-color: var(--color-black-variant);
+  border-color: var(--color-black);
   border-radius: 1rem;
   padding: 1rem;
   z-index: 1;

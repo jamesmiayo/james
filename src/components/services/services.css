@@ -11,7 +11,7 @@
   /* background: transparent;
   border: 1px solid transparent;
   border-color: var(--color-black-variant); */
-  background: var(--color-black-variant);
+  background: var(--color-black-variantv2);
   border-radius: 50%;
   padding: 1rem;
 
@@ -28,9 +28,9 @@
   align-items: center;
   justify-content: center;
 
-  background: var(--color-black-variantv2);
+  background: var(--color-black-variant);
   border: 2px solid transparent;
-  border-color: var(--color-black-variant);
+  border-color: var(--color-black-variantv2);
   padding: 4rem 3rem 2rem;
   padding: 4rem 3rem 2rem;
   padding: 4rem 3rem 2rem;

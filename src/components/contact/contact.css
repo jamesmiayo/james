@@ -8,7 +8,16 @@
 .contact__options {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
+}
+
+.contact__icon {
+  background: var(--color-black-variant);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 50%;
 }
 
 .contact__option {
@@ -18,6 +27,11 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact__option:hover {
@@ -27,7 +41,7 @@
 
 .contact__option-icon {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   color: var(--color-orange);
 }
 
