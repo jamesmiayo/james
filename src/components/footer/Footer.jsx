@@ -11,7 +11,7 @@ const Footer = () => {
         James Miayo
       </a>
 
-      <ul className="permalinks">
+      {/* <ul className="permalinks">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -35,7 +35,7 @@ const Footer = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-      </ul>
+      </ul> */}
 
       <div className="footer__socials">
         <a href="https://facebook.com">

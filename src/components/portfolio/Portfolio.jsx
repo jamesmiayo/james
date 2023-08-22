@@ -1,5 +1,6 @@
 import React from 'react';
 import portf1 from '../../assets/websites/maeforeverkayjames.png';
+import portf2 from '../../assets/websites/knldeluxetreats.png';
 import './portfolio.css';
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
@@ -16,13 +17,21 @@ const Portfolio = () => {
           </div>
           <div className="portfolio__details">
             <h3>Wedding RVSP Website</h3>
-            <a href="#contact" className="btn btn-primary">
+            <a
+              href="http://maeforeverkayjames.com/"
+              className="btn btn-primary"
+              target="##"
+            >
               <span>
                 <CgWebsite size={20} />
               </span>
               View Website
             </a>
-            <a href="#contact" className="btn btn-secondary">
+            <a
+              href="https://github.com/jamesmiayo/maeforeverkayjames"
+              className="btn btn-secondary"
+              target="##"
+            >
               <span>
                 <BsGithub size={20} />
               </span>
@@ -33,17 +42,25 @@ const Portfolio = () => {
 
         <div className="portfolio_card">
           <div className="portfolio__img">
-            <img src={portf1} alt="" />
+            <img src={portf2} alt="" />
           </div>
           <div className="portfolio__details">
-            <h3>Wedding RVSP Website</h3>
-            <a href="#contact" className="btn btn-primary">
+            <h3>Food Website</h3>
+            <a
+              href="https://jamesmiayo.github.io/knldeluxetreats/"
+              className="btn btn-primary"
+              target="##"
+            >
               <span>
                 <CgWebsite size={20} />
               </span>
               View Website
             </a>
-            <a href="#contact" className="btn btn-secondary">
+            <a
+              href="https://github.com/jamesmiayo/knldeluxe"
+              className="btn btn-secondary"
+              target="##"
+            >
               <span>
                 <BsGithub size={20} />
               </span>

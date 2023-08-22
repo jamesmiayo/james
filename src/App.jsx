@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Services from './components/services/Services.jsx';
 import Portfolio from './components/portfolio/Portfolio.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Experience />
       <Services />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );
