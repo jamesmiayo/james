@@ -9,6 +9,7 @@ import { FaDatabase } from 'react-icons/fa';
 import { FaNetworkWired } from 'react-icons/fa';
 import { BsFileCodeFill } from 'react-icons/bs';
 import { BiSolidCctv } from 'react-icons/bi';
+import { IoLogoDribbble } from 'react-icons/io';
 
 import CTA from './CTA';
 
@@ -55,13 +56,20 @@ const Profile = () => {
             >
               <BsFacebook className="social__icon" size={30} />
             </a>
-
             <a
               href="https://www.instagram.com/jamesmiayo/"
               target="##"
               className="profile__socials-icon"
             >
               <BsInstagram className="social__icon" size={30} />
+            </a>
+
+            <a
+              href="https://dribbble.com/it_jamesmiayo25"
+              target="##"
+              className="profile__socials-icon"
+            >
+              <IoLogoDribbble className="social__icon" size={40} />
             </a>
           </div>
         </div>

@@ -5,16 +5,18 @@ import Nav from './components/nav/Nav.jsx';
 import Experience from './components/experience/Experience.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Services from './components/services/Services.jsx';
+import Portfolio from './components/portfolio/Portfolio.jsx';
 
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 11v</div>
+      <div>VERSION CONTROL: 11</div>
       <Nav />
       <Profile />
       <About />
       <Experience />
       <Services />
+      <Portfolio />
       <Footer />
     </div>
   );

@@ -145,7 +145,7 @@
 
     bottom: 20%;
     padding-left: 2rem;
-    left: calc(50% - 9rem);
+    left: calc(50% - 11rem);
   }
 
   .profile__socials::before {

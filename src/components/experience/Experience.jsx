@@ -34,7 +34,7 @@ const Experience = () => {
         </div>
       </section>
       <section id="certificate">
-        <h1>Certificate</h1>
+        <h1>Certificates</h1>
         <div className="container certificate__container">
           <div className="swiper__container">
             <Swiper

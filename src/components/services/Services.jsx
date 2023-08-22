@@ -1,6 +1,8 @@
 import React from 'react';
 import './services.css';
 import { MdDeveloperMode } from 'react-icons/md';
+import { FaTools } from 'react-icons/fa';
+import { LuNetwork } from 'react-icons/lu';
 
 const Services = () => {
   return (
@@ -10,21 +12,24 @@ const Services = () => {
       <div className="container services__container">
         <div className="services__card">
           <div className="services__logo">
-            <MdDeveloperMode size={50} />
+            <MdDeveloperMode size={50} className="services__icon" />
           </div>
           <div className="servicesinfo__card">
             <h5>Web Development</h5>
           </div>
           <div className="servicesdetail__card">
-            <small>Design</small>
+            <small>Web design</small>
             <br />
-            <small>Design</small>
+            <small>Landing Page</small>
             <br />
-            <small>Design</small>
+            <small>E-Commerce</small>
             <br />
-            <small>Design</small>
+            <small>Maintenance</small>
             <br />
-            <small>Design</small>
+            <small>Hosting</small>
+            <br />
+            <small>Database Administration</small>
+            <br />
           </div>
 
           <a href="#contact" className="btn btn-secondary">
@@ -34,42 +39,46 @@ const Services = () => {
 
         <div className="services__card">
           <div className="services__logo">
-            <MdDeveloperMode size={50} />
+            <FaTools size={50} className="services__icon" />
           </div>
           <div className="servicesinfo__card">
-            <h5>Web Development</h5>
+            <h5>Technical Services</h5>
           </div>
           <div className="servicesdetail__card">
-            <small>Design</small>
+            <small>Desktop Repair</small>
             <br />
-            <small>Design</small>
+            <small>Laptop</small>
             <br />
-            <small>Design</small>
+            <small>Printer</small>
             <br />
-            <small>Design</small>
+            <small>Data Recovery</small>
             <br />
-            <small>Design</small>
+            <small>Virus Removal</small>
+            <br />
+            <small>Network Design</small>
+            <br />
+            <small>Technical Support</small>
           </div>
+          <a href="#contact" className="btn btn-secondary">
+            Message me
+          </a>
         </div>
 
         <div className="services__card">
           <div className="services__logo">
-            <MdDeveloperMode size={50} />
+            <LuNetwork size={50} className="services__icon" />
           </div>
           <div className="servicesinfo__card">
-            <h5>Web Development</h5>
+            <h5>Installation</h5>
           </div>
           <div className="servicesdetail__card">
-            <small>Design</small>
+            <small>CCTV Installation</small>
             <br />
-            <small>Design</small>
-            <br />
-            <small>Design</small>
-            <br />
-            <small>Design</small>
-            <br />
-            <small>Design</small>
+            <small>Network Installation</small>
           </div>
+          <a href="#contact" className="btn btn-secondary">
+            Message me
+          </a>
         </div>
       </div>
     </section>

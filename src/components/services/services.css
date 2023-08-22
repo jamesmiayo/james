@@ -4,6 +4,7 @@
   align-items: center;
   gap: 1rem;
   place-items: center;
+  padding: 1rem;
 }
 
 .services__logo {
@@ -17,6 +18,9 @@
   position: absolute;
   top: -40;
 }
+.services__icon {
+  color: var(--color-orange);
+}
 
 .services__card {
   display: flex;
@@ -28,16 +32,46 @@
   border: 2px solid transparent;
   border-color: var(--color-black-variant);
   padding: 4rem 3rem 2rem;
+  padding: 4rem 3rem 2rem;
+  padding: 4rem 3rem 2rem;
 
-  border-radius: 3rem;
+  border-radius: 7rem;
 
   position: relative;
+
+  text-align: left;
 }
 
-#services small {
-  text-align: center;
+.services__card small {
+  color: var(--color-light);
 }
-
+.services__card h5 {
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
 .services__card a {
   margin-top: 2rem;
+}
+
+/* ==================MEDIA QUERIES (medium devices) ===========================*/
+
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+    .services__card {
+      margin: 1rem;
+    }
+  }
+}
+
+/* ==================MEDIA QUERIES (small devices) ===========================*/
+
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+  .services__card {
+    margin: 1rem;
+  }
 }

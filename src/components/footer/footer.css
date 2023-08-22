@@ -7,7 +7,10 @@ footer {
 }
 
 footer a {
+  /* color: var(--color-orange); */
   color: var(--color-orange);
+  background: transparent;
+  border-color: var(--color-orange);
 }
 
 .footer__logo {
