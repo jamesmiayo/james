@@ -8,10 +8,10 @@ footer {
 
 footer .footer__container {
   background: linear-gradient(var(--color-black-variant), transparent);
-  width: 50rem;
+  width: 20rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 25rem);
+  left: calc(50% - 10rem);
   /* left: 50%;
   transform: translateX(-50%); */
   margin-top: 4rem;

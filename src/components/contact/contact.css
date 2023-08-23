@@ -5,10 +5,19 @@
   gap: 12%;
 }
 
+.mail__container {
+  padding: 1rem;
+  background: var(--color-black-variant);
+  border-radius: 1rem;
+}
+
 .contact__options {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 1rem;
+  background: var(--color-black-variant);
+  border-radius: 1rem;
 }
 
 .contact__icon {
@@ -65,10 +74,10 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--color-black-variantv2);
+  border: 1px solid var(--color-light);
   resize: none;
   color: var(--color-white);
-  background-color: var(--color-black-variant);
+  background-color: var(--color-black-variantv2);
 }
 
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
