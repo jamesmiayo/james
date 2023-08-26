@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './experience.css';
 import data from './data';
 import imgcert from '../../assets/cert/cert2.jpg';
@@ -11,6 +11,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const Experience = () => {
+  const [show, setShow] = useState(false);
   return (
     <>
       <section id="experience">
@@ -60,15 +61,20 @@ const Experience = () => {
         <h1>Work Experience</h1>
         <div className="container exp__container">
           {data.experiences.map((experience) => (
-            <div className="job__container" key={experience.position}>
-              <div className="jobinfo__container">
+            <div className="job__container" key={experience.id}>
+              <div
+                className="jobinfo__container"
+                onClick={() => setShow(!show)}
+              >
                 <h2>{experience.year}</h2>
                 <h5>{experience.position}</h5>
                 <small className="text-light">{experience.company}</small>
               </div>
-              <div className="jobdetail__container">
-                <small>{experience.jobdetail}</small>
-              </div>
+              {show && (
+                <div className="jobdetail__container">
+                  <small>{experience.jobdetail}</small>
+                </div>
+              )}
             </div>
           ))}
         </div>

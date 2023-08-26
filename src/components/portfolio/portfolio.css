@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background: var(--color-black-variant);
+  background: linear-gradient(var(--color-black-variant), transparent);
   border-radius: 1rem;
 }
 

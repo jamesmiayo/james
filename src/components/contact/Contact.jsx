@@ -45,7 +45,7 @@ function Contact() {
             <h4>Email</h4>
             <h5>it_jamesmiayo25@yahoo.com</h5>
             <a href="mailto:it_jamesmiayo25@yahoo.com" target="##">
-              Send a message
+              Open Mail
             </a>
           </article>
 

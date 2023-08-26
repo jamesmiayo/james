@@ -7,7 +7,7 @@ import { LuNetwork } from 'react-icons/lu';
 const Services = () => {
   return (
     <section id="services">
-      <h5>What can I offer</h5>
+      <h5>What can I do for you?</h5>
       <h1>Services</h1>
       <div className="container services__container">
         <div className="services__card">
