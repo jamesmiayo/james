@@ -11,7 +11,7 @@ import Contact from './components/contact/Contact.jsx';
 const App = () => {
   return (
     <div>
-      <div>VERSION CONTROL: 12</div>
+      {/* <div>VERSION CONTROL: 12</div> */}
       <Nav />
       <Profile />
       <About />
