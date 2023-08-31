@@ -4,6 +4,7 @@ import data from './data';
 import imgcert from '../../assets/cert/cert2.jpg';
 import imgcert2 from '../../assets/cert/cert.jpg';
 import imgcert3 from '../../assets/cert/cert3.jpg';
+import imgcert4 from '../../assets/cert/cert4.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -51,6 +52,9 @@ const Experience = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <img src={imgcert3} alt="imgcert3" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgcert4} alt="imgcert4" />
               </SwiperSlide>
             </Swiper>
           </div>
