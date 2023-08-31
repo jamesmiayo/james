@@ -13,6 +13,7 @@ import 'swiper/css/pagination';
 
 const Experience = () => {
   const [show, setShow] = useState(false);
+  const { read, setRead } = useState('Read');
   return (
     <>
       <section id="experience">
@@ -66,13 +67,14 @@ const Experience = () => {
         <div className="container exp__container">
           {data.experiences.map((experience) => (
             <div className="job__container" key={experience.id}>
-              <div
-                className="jobinfo__container"
-                onClick={() => setShow(!show)}
-              >
+              <div className="jobinfo__container">
                 <h2>{experience.year}</h2>
                 <h5>{experience.position}</h5>
                 <small className="text-light">{experience.company}</small>
+                <br />
+                <h5 className="btn-read" onClick={() => setShow(!show)}>
+                  Read
+                </h5>
               </div>
               {show && (
                 <div className="jobdetail__container">

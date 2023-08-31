@@ -17,6 +17,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio__details">
             <h3>Wedding RVSP Website</h3>
+            <small>Web Hosting: Godaddy</small>
             <a
               href="http://maeforeverkayjames.com/"
               className="btn btn-primary"
@@ -46,6 +47,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio__details">
             <h3>Food Website</h3>
+            <small>Web Hosting: Render</small>
             <a
               href="https://knldeluxetreats.onrender.com/"
               className="btn btn-primary"

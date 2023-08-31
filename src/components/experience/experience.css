@@ -138,6 +138,19 @@
   padding: 1rem;
   z-index: 1;
 }
+
+.btn-read {
+  color: var(--color-oasis);
+  transition: var(--transition);
+  width: 2rem;
+  text-decoration: underline;
+}
+
+.btn-read:hover {
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 /* .jobinfo__container:before {
   content: '';
   position: absolute;

@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background: linear-gradient(var(--color-black-variant), transparent);
+  background: var(--color-black-variant);
   border-radius: 1rem;
 }
 
@@ -47,6 +47,11 @@
 
 .portfolio__img {
   width: 300px;
+}
+
+.portfolio__details small {
+  text-align: center;
+  color: var(--color-light);
 }
 
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
