@@ -47,7 +47,7 @@ const Portfolio = () => {
           <div className="portfolio__details">
             <h3>Food Website</h3>
             <a
-              href="https://jamesmiayo.github.io/knldeluxetreats/"
+              href="https://knldeluxetreats.onrender.com/"
               className="btn btn-primary"
               target="##"
             >
