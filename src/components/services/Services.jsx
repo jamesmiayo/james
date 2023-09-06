@@ -53,7 +53,7 @@ const Services = () => {
             <br />
             <small>Data Recovery</small>
             <br />
-            <small>Virus Removal</small>
+            <small>Malware Removal</small>
             <br />
             <small>Network Design</small>
             <br />

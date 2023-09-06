@@ -5,6 +5,7 @@ import imgcert from '../../assets/cert/cert2.jpg';
 import imgcert2 from '../../assets/cert/cert.jpg';
 import imgcert3 from '../../assets/cert/cert3.jpg';
 import imgcert4 from '../../assets/cert/cert4.jpg';
+import imgcert5 from '../../assets/cert/cert5.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -13,7 +14,7 @@ import 'swiper/css/pagination';
 
 const Experience = () => {
   const [show, setShow] = useState(false);
-  const { read, setRead } = useState('Read');
+
   return (
     <>
       <section id="experience">
@@ -56,6 +57,9 @@ const Experience = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <img src={imgcert4} alt="imgcert4" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={imgcert5} alt="imgcert5" />
               </SwiperSlide>
             </Swiper>
           </div>

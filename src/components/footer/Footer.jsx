@@ -4,8 +4,6 @@ import { FiInstagram } from 'react-icons/fi';
 import { IoLogoTwitter } from 'react-icons/io';
 import './footer.css';
 
-import skr from '../../assets/icons/Seeker.png';
-
 const Footer = () => {
   return (
     <footer className="footer">
