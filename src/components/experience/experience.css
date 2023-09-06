@@ -97,16 +97,16 @@
   background: var(--color-black-variant);
 }
 
-#job h2 {
+.job__container h2 {
   color: var(--color-orange);
 }
 
-#job small {
+.job__container small {
   color: var(--color-light);
   text-align: left;
 }
 
-#job h5 {
+.job__container h5 {
   text-align: left;
 }
 
@@ -173,11 +173,82 @@
   border-radius: 1rem;
   background: var(--color-black-variantv2);
 } */
+
+/* ********************TABS */
+.bloc-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.bloc-tabs h3 {
+  color: var(--color-light);
+}
+.active-tabs {
+  /* background: var(--color-black-variant); */
+  border-bottom: 1px solid var(--color-orange);
+}
+
+.tabs {
+  padding: 1rem;
+  margin: 1rem 4rem;
+  width: auto;
+}
+.active-content {
+  display: block;
+  margin: 3rem 0 5rem;
+}
+/* .tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+} */
+
+.active-tabs::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  /* background: rgb(88, 147, 241); */
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: rgb(2, 2, 2);
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
 
 @media screen and (max-width: 1024px) {
   .experience__skills {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .tabs {
+    margin: 1rem 1rem;
   }
 }
 /* ==================MEDIA QUERIES (small devices) ===========================*/
