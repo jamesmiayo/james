@@ -270,6 +270,11 @@
   .jobdetail__container {
     width: auto;
   }
+
+  .jobdetail__container.show {
+    width: auto;
+  }
+
   .jobinfo__container {
     width: auto;
   }
