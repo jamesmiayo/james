@@ -13,13 +13,21 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const Experience = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(null);
+  const toggleShow = (i) => {
+    if (show === i) {
+      return setShow(null);
+    }
+
+    setShow(i);
+  };
 
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
+
   return (
     <>
       <section id="experience">
@@ -98,22 +106,35 @@ const Experience = () => {
 
             <div className={toggleState === 3 ? 'active-content' : 'content'}>
               <div className="container exp__container">
-                {data.experiences.map((experience) => (
+                {data.experiences.map((experience, i) => (
                   <div className="job__container" key={experience.id}>
                     <div className="jobinfo__container">
-                      <h2>{experience.year}</h2>
-                      <h5>{experience.position}</h5>
-                      <small className="text-light">{experience.company}</small>
-                      <br />
-                      <h5 className="btn-read" onClick={() => setShow(!show)}>
-                        Read
+                      <div>
+                        {' '}
+                        <h2>{experience.year}</h2>
+                        <h5>{experience.position}</h5>
+                        <small className="text-light">
+                          {experience.company}
+                        </small>
+                      </div>
+
+                      <h5 className="btn-read" onClick={() => toggleShow(i)}>
+                        {show === i ? 'Hide' : 'Read'}
                       </h5>
                     </div>
-                    {show && (
-                      <div className="jobdetail__container">
-                        <small>{experience.jobdetail}</small>
-                      </div>
-                    )}
+
+                    <div
+                      className={
+                        show === i
+                          ? 'jobdetail__container show'
+                          : 'jobdetail__container'
+                      }
+                    >
+                      <small>{experience.jobdetail}</small>
+                    </div>
+                    {/* {show && (
+                     
+                    )} */}
                   </div>
                 ))}
               </div>
