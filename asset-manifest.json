@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/james/static/css/main.ca3b8ea8.css",
-    "main.js": "/james/static/js/main.e5261d0e.js",
+    "main.css": "/james/static/css/main.a8b86281.css",
+    "main.js": "/james/static/js/main.c74c4f06.js",
     "static/media/knldeluxetreats.png": "/james/static/media/knldeluxetreats.472b6051c27c1b3bbf3c.png",
     "static/media/me1.png": "/james/static/media/me1.d6a242e695eeb5002ba9.png",
     "static/media/maeforeverkayjames.png": "/james/static/media/maeforeverkayjames.6927db599d6add5fa1bc.png",
@@ -10,7 +10,7 @@
     "static/media/cert2.jpg": "/james/static/media/cert2.4cc9cd4b01245c94dc25.jpg",
     "static/media/cert4.jpg": "/james/static/media/cert4.0ffbbcd630c2406df101.jpg",
     "static/media/cert5.jpg": "/james/static/media/cert5.939a91fdbe8fcf520f46.jpg",
-    "static/media/2023_JAMES_RESUME.pdf": "/james/static/media/2023_JAMES_RESUME.0126a035cea7cba4a093.pdf",
+    "static/media/2023_JAMES_RESUME.pdf": "/james/static/media/2023_JAMES_RESUME.1376716df7db6b3984e6.pdf",
     "static/media/cert3.jpg": "/james/static/media/cert3.ea06cc513f9675dd7145.jpg",
     "static/media/react.png": "/james/static/media/react.8ef3369b97f63d785239.png",
     "static/media/vb6.png": "/james/static/media/vb6.eead92bbda292f9b0b53.png",
@@ -22,11 +22,11 @@
     "static/media/html.png": "/james/static/media/html.be50d4568ab0cb01edb8.png",
     "static/media/figma.png": "/james/static/media/figma.738add6736dde780a845.png",
     "index.html": "/james/index.html",
-    "main.ca3b8ea8.css.map": "/james/static/css/main.ca3b8ea8.css.map",
-    "main.e5261d0e.js.map": "/james/static/js/main.e5261d0e.js.map"
+    "main.a8b86281.css.map": "/james/static/css/main.a8b86281.css.map",
+    "main.c74c4f06.js.map": "/james/static/js/main.c74c4f06.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca3b8ea8.css",
-    "static/js/main.e5261d0e.js"
+    "static/css/main.a8b86281.css",
+    "static/js/main.c74c4f06.js"
   ]
 }
