@@ -8,9 +8,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container">
-        {/* <div className="seeker__icon">
-          <img src={skr} alt="seeker icon" />
-        </div> */}
         <a href="#profile" className="footer__logo">
           James Miayo
         </a>
