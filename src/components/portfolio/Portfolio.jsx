@@ -1,6 +1,8 @@
 import React from 'react';
 import portf1 from '../../assets/websites/maeforeverkayjames.png';
 import portf2 from '../../assets/websites/knldeluxetreats.png';
+import portf3 from '../../assets/websites/despedida.jpg';
+
 import './portfolio.css';
 import { CgWebsite } from 'react-icons/cg';
 import { BsGithub } from 'react-icons/bs';
@@ -60,6 +62,36 @@ const Portfolio = () => {
             </a>
             <a
               href="https://github.com/jamesmiayo/knldeluxe"
+              className="btn btn-secondary"
+              target="##"
+            >
+              <span>
+                <BsGithub size={20} />
+              </span>
+              View Git
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio_card">
+          <div className="portfolio__img">
+            <img src={portf3} alt="" />
+          </div>
+          <div className="portfolio__details">
+            <h3>Invitation</h3>
+            <small>Web Hosting: Netlify</small>
+            <a
+              href="https://kevinnikkidespedida.netlify.app//"
+              className="btn btn-primary"
+              target="##"
+            >
+              <span>
+                <CgWebsite size={20} />
+              </span>
+              View Website
+            </a>
+            <a
+              href="https://github.com/jamesmiayo/"
               className="btn btn-secondary"
               target="##"
             >
