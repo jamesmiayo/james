@@ -2,6 +2,7 @@ import React from 'react';
 import portf1 from '../../assets/websites/maeforeverkayjames.png';
 import portf2 from '../../assets/websites/knldeluxetreats.png';
 import portf3 from '../../assets/websites/despedida.jpg';
+import portf4 from '../../assets/websites/bryan.png';
 
 import './portfolio.css';
 import { CgWebsite } from 'react-icons/cg';
@@ -82,6 +83,36 @@ const Portfolio = () => {
             <small>Web Hosting: Netlify</small>
             <a
               href="https://kevinnikkidespedida.netlify.app//"
+              className="btn btn-primary"
+              target="##"
+            >
+              <span>
+                <CgWebsite size={20} />
+              </span>
+              View Website
+            </a>
+            <a
+              href="https://github.com/jamesmiayo/"
+              className="btn btn-secondary"
+              target="##"
+            >
+              <span>
+                <BsGithub size={20} />
+              </span>
+              View Git
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio_card">
+          <div className="portfolio__img">
+            <img src={portf4} alt="bryan" />
+          </div>
+          <div className="portfolio__details">
+            <h3>Portfolio</h3>
+            <small>Web Hosting: Netlify</small>
+            <a
+              href="https://architectjb.netlify.app/"
               className="btn btn-primary"
               target="##"
             >
