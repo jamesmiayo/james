@@ -82,7 +82,7 @@ const Portfolio = () => {
             <h3>Invitation</h3>
             <small>Web Hosting: Netlify</small>
             <a
-              href="https://kevinnikkidespedida.netlify.app//"
+              href="https://kevinnikkidespedida.netlify.app/"
               className="btn btn-primary"
               target="##"
             >
