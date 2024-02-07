@@ -104,7 +104,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="portfolio_card">
+        {/* <div className="portfolio_card">
           <div className="portfolio__img">
             <img src={portf4} alt="bryan" />
           </div>
@@ -132,7 +132,7 @@ const Portfolio = () => {
               View Git
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
